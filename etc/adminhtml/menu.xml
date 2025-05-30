@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Merlin_ReservationGrid::reservation"
+             title="Inventory Reservations"
+             translate="title"
+             module="Merlin_ReservationGrid"
+             parent="Magento_Sales::sales"
+             action="merlin_reservation/reservation/index"
+             resource="Merlin_ReservationGrid::reservation"
+             sortOrder="90"/>
+    </menu>
+</config>
