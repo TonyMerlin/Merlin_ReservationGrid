@@ -1,0 +1,25 @@
+{
+    "name": "merlin/module-reservationgrid",
+    "description": "Reservation Grid",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Tony Merlin",
+            "email": "admin@sky-merlin.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.4.0|~8.0.0|~8.1.0|~8.2.0",
+        "merlin/backend": "*" },
+
+    "autoload": {
+        "psr-4": {
+            "Merlin\\ReservationGrid\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
