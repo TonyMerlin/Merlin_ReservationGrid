@@ -17,3 +17,11 @@
  actionsColumn had no delete link defined; We've added it.
 
 5) added an i18n/en_US.csv to ship default translations.
+
+With the above code changes:
+
+- We no longer use the ObjectManager in the controllers.  
+- The ACL now lives under Magento_Sales.  
+- The module sequence guarantees the MSI reservation table is present.  
+- The grid will display a per' row Delete link and a working mass delete action but no broken Export button.  
+- No more obsolete CSRF overrides on a pure GET action.
