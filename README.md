@@ -1,5 +1,7 @@
 # Merlin_ReservationGrid
-Sometimes reservations get stuck and especially when finance extensions from 3rd party companies, this extension gives you the ability to delete individual or all stock reservations directly from Magento 2's Admin Panel. Previously the only way to do this was from the database.
+Sometimes reservations get stuck and especially when using 3rd party finance extensions, this extension gives you the ability to delete individual or all stock reservations directly from Magento 2's Admin Panel. 
+
+Previously the only way to do this was from the database.
 
 #### 
 Install
